@@ -93,7 +93,7 @@ export const HeroSection = () => {
         <div className="flex flex-col justify-center items-center">
           <div className="max-w-lg mx-auto text-center">
             <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-              Bonjour, je suis Astorg Fabien
+              Bonjour, je suis Fabien
             </h1>
             <p className="mt-4 text-center font-light text-white/80 tracking-wide md:text-lg">
               Je me spécialise dans la transformation de designs en applications web fonctionnelles et performantes.
