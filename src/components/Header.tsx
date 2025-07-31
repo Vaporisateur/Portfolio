@@ -107,9 +107,9 @@ export const Header = ({ activeSectionId, setActiveSectionId }: HeaderProps) => 
   );
 
   const labels: Record<string, string> = {
-    home: 'Home',
-    projects: 'Projects',
-    about: 'About',
+    home: 'Accueil',
+    projects: 'Projets',
+    about: 'À Propos',
     contact: 'Contact',
   };
 
