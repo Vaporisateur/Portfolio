@@ -1,9 +1,7 @@
-import { SectionHeader } from "./SectionHeader";
-import { Card } from "./Card";
-import { CheckIcon } from "./CheckIcon";
-import { ArrowUpRightIcon } from "./ArrowUpRightIcon";
-import projet11Image from "../assets/images/projet11.png";
-import seoImage from "../assets/images/SEO.png";
+import { SectionHeader, Card } from "../ui";
+import { CheckIcon, ArrowUpRightIcon } from "../icons";
+import projet11Image from "../../assets/images/projet11.png";
+import seoImage from "../../assets/images/SEO.png";
 
 const portfolioProjects = [
   {

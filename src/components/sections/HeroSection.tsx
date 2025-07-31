@@ -1,6 +1,5 @@
-import { HeroOrbit } from "./HeroOrbit";
-import { StarIcon } from "./StarIcon";
-import { SparkleIcon } from "./SparkleIcon";
+import { HeroOrbit } from "../ui";
+import { StarIcon, SparkleIcon } from "../icons";
 
 export const HeroSection = () => {
   return (

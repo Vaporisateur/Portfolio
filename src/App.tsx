@@ -1,9 +1,5 @@
 import { useState } from 'react'
-import { Header } from './components/Header'
-import { HeroSection } from './components/HeroSection'
-import { ProjectsSection } from './components/ProjectsSection'
-import { AboutSection } from './components/AboutSection'
-import { ContactSection } from './components/ContactSection'
+import { Header, HeroSection, ProjectsSection, AboutSection, ContactSection } from './components'
 
 function App() {
   const [activeSectionId, setActiveSectionId] = useState<string>('home');
