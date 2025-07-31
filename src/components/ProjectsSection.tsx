@@ -2,6 +2,8 @@ import { SectionHeader } from "./SectionHeader";
 import { Card } from "./Card";
 import { CheckIcon } from "./CheckIcon";
 import { ArrowUpRightIcon } from "./ArrowUpRightIcon";
+import projet11Image from "../assets/images/projet11.png";
+import seoImage from "../assets/images/SEO.png";
 
 const portfolioProjects = [
   {
@@ -13,8 +15,8 @@ const portfolioProjects = [
       { title: "Élaboration des spécifications techniques." },
       { title: "Gestion Agile via tableau Kanban." },
     ],
-    link: "public/Menu_Maker.pdf",
-    image: "src/assets/images/projet11.png",
+    link: "https://vaporisateur.github.io/Portfolio/Menu_Maker.pdf",
+    image: projet11Image,
     linkText: "Voir le projet",
   },
   {
@@ -27,7 +29,7 @@ const portfolioProjects = [
       { title: "Amélioration de la vitesse de chargement" },
     ],
     link: "https://vaporisateur.github.io/ninacarducci.github.io-main/",
-    image: "src/assets/images/SEO.png",
+    image: seoImage,
     linkText: "Visiter le site",
   },
   {
@@ -40,7 +42,7 @@ const portfolioProjects = [
       { title: "Mise en place d'une authentification forte" },
     ],
     link: "#",
-    image: "src/assets/images/projet11.png",
+    image: projet11Image,
     linkText: "Visiter le site",
   },
 ];
