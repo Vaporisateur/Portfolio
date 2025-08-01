@@ -24,12 +24,15 @@ export default {
       },
       animation: {
         'spin-slow': 'spin 20s linear infinite',
-        'move-left': 'move-left 30s linear infinite',
+        'move-left': 'move-left 20s linear infinite',
       },
       keyframes: {
         'move-left': {
-          to: {
-            transform: 'translateX(-50%)'
+          '0%': {
+            transform: 'translateX(100%)'
+          },
+          '100%': {
+            transform: 'translateX(-100%)'
           }
         }
       }
