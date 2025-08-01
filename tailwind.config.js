@@ -24,7 +24,7 @@ export default {
       },
       animation: {
         'spin-slow': 'spin 20s linear infinite',
-        'move-left': 'move-left 20s linear infinite',
+        'move-left': 'move-left 8s linear infinite',
       },
       keyframes: {
         'move-left': {
