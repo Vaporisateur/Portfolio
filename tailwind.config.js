@@ -25,6 +25,8 @@ export default {
       animation: {
         'spin-slow': 'spin 20s linear infinite',
         'move-left': 'move-left 8s linear infinite',
+        'scroll-left': 'scroll-left 1s linear infinite',
+        'scroll-right': 'scroll-right 1s linear infinite',
       },
       keyframes: {
         'move-left': {
@@ -34,7 +36,23 @@ export default {
           '100%': {
             transform: 'translateX(-100%)'
           }
-        }
+        },
+        'scroll-left': {
+          '0%': {
+            transform: 'translateX(0%)',
+          },
+          '100%': {
+            transform: 'translateX(-50%)',
+          },
+        },
+        'scroll-right': {
+          '0%': {
+            transform: 'translateX(-50%)',
+          },
+          '100%': {
+            transform: 'translateX(0%)',
+          },
+        },
       }
     },
   },
