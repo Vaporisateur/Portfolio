@@ -13,6 +13,10 @@ export default defineConfig({
           dest: ''
         },
         {
+          src: 'public/robots.txt',
+          dest: ''
+        },
+        {
           src: 'public/.nojekyll',
           dest: ''
         }
