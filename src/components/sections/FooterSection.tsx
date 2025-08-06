@@ -22,7 +22,7 @@ export const FooterSection = () => {
       ></div>
       <div className="container mx-auto px-6">
         <div className="border-t border-white/15 py-6 md:pb-8 text-sm flex flex-col md:flex-row items-center md:justify-between gap-8">
-          <div className="text-white/40">&copy; 2024. Tous droits réservés.</div>
+          <div className="text-white/40">&copy; 2025. Tous droits réservés.</div>
           <nav className="flex flex-col md:flex-row gap-8 items-center">
             {footerLinks.map((footerLink) => (
               <a
