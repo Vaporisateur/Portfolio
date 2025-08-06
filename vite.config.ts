@@ -13,6 +13,10 @@ export default defineConfig({
           dest: ''
         },
         {
+          src: 'public/sitemaps.xml',
+          dest: ''
+        },
+        {
           src: 'public/robots.txt',
           dest: ''
         },
