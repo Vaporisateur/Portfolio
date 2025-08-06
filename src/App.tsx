@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Header, HeroSection, ProjectsSection, TapeSection, AboutSection, ContactSection } from './components'
+import { Header, HeroSection, ProjectsSection, TapeSection, AboutSection, ContactSection, FooterSection } from './components'
 
 function App() {
   const [activeSectionId, setActiveSectionId] = useState<string>('home');
@@ -12,6 +12,7 @@ function App() {
       <TapeSection />
       <AboutSection />
       <ContactSection />
+      <FooterSection />
     </div>
   )
 }
