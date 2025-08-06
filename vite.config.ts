@@ -10,11 +10,11 @@ export default defineConfig({
       targets: [
         {
           src: 'public/sitemap.xml',
-          dest: '.'
+          dest: ''
         },
         {
           src: 'public/.nojekyll',
-          dest: '.'
+          dest: ''
         }
       ]
     })
