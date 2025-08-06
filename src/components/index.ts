@@ -1,5 +1,6 @@
 // Main components
 export { Header } from './Header';
+export { SEO } from './SEO';
 
 // Sections
 export * from './sections';

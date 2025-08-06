@@ -1,11 +1,12 @@
 import { useState } from 'react'
-import { Header, HeroSection, ProjectsSection, TapeSection, AboutSection, ContactSection, FooterSection } from './components'
+import { Header, HeroSection, ProjectsSection, TapeSection, AboutSection, ContactSection, FooterSection, SEO } from './components'
 
 function App() {
   const [activeSectionId, setActiveSectionId] = useState<string>('home');
 
   return (
     <div className="bg-gray-900 text-white font-sans antialiased">
+      <SEO />
       <Header activeSectionId={activeSectionId} setActiveSectionId={setActiveSectionId} />
       <HeroSection />
       <ProjectsSection />
