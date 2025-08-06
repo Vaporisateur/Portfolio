@@ -17,6 +17,10 @@ export default defineConfig({
           dest: ''
         },
         {
+          src: 'public/.htaccess',
+          dest: ''
+        },
+        {
           src: 'public/.nojekyll',
           dest: ''
         }
