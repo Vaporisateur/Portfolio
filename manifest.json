@@ -1,0 +1,30 @@
+{
+  "name": "Portfolio Fabien Astorg",
+  "short_name": "Portfolio Fabien",
+  "description": "Portfolio de Fabien Astorg, Développeur Frontend",
+  "start_url": "/Portfolio/",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#10b981",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/Portfolio/vite.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    },
+    {
+      "src": "/Portfolio/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/Portfolio/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "categories": ["business", "productivity"],
+  "lang": "fr",
+  "dir": "ltr"
+}
