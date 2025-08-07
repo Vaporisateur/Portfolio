@@ -39,7 +39,7 @@ const portfolioProjects = [
       { title: "Intégration de services bancaires sécurisés" },
       { title: "Mise en place d'une authentification forte" },
     ],
-    link: "#",
+    link: "https://argent-bank-frontend-b8ad9xoa8-fabiens-projects-12f14379.vercel.app/",
     image: projet11Image,
     linkText: "Visiter le site",
   },
