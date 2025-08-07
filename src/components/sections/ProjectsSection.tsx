@@ -2,6 +2,7 @@ import { SectionHeader, Card } from "../ui";
 import { CheckIcon, ArrowUpRightIcon } from "../icons";
 import projet11Image from "../../assets/images/projet11.png";
 import seoImage from "../../assets/images/SEO.png";
+import ArgentBank from "../../assets/images/ArgentBank.png";
 
 const portfolioProjects = [
   {
@@ -40,7 +41,7 @@ const portfolioProjects = [
       { title: "Mise en place d'une authentification forte" },
     ],
     link: "https://argent-bank-frontend-b8ad9xoa8-fabiens-projects-12f14379.vercel.app/",
-    image: projet11Image,
+    image: ArgentBank,
     linkText: "Visiter le site",
   },
 ];
