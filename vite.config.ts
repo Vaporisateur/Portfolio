@@ -17,6 +17,10 @@ export default defineConfig({
           dest: ''
         },
         {
+          src: 'public/site.webmanifest',
+          dest: ''
+        },
+        {
           src: 'public/robots.txt',
           dest: ''
         },
