@@ -20,7 +20,7 @@ export const ContactSection = () => {
                 Prêt à donner vie à votre prochain projet ? Connectons-nous et discutons de la façon dont je peux vous aider à atteindre vos objectifs.
               </p>
             </div>
-            <a href="mailto:astorgf@gmail.com">
+            <a href="mailto:contact@fabienastorg.com">
               <button className="bg-gray-900 text-white inline-flex items-center gap-2 px-6 h-12 rounded-xl w-max">
                 <span className="font-semibold">Me Contacter</span>
                 <ArrowUpRightIcon className="size-4" />
