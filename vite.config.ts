@@ -3,11 +3,15 @@ import react from '@vitejs/plugin-react'
 import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default defineConfig({
-  base: '/Portfolio/',
+  base: '/', // Changé pour domaine personnalisé
   plugins: [
     react(),
     viteStaticCopy({
       targets: [
+        {
+          src: 'public/CNAME',
+          dest: ''
+        },
         {
           src: 'public/sitemap.xml',
           dest: ''

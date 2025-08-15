@@ -13,8 +13,8 @@ export const SEO = ({
   title = "Fabien Astorg - Développeur Frontend | Portfolio",
   description = "Développeur Frontend spécialisé en React, TypeScript et Node.js. Découvrez mes projets et compétences en développement web moderne.",
   keywords = "développeur web, frontend, React, TypeScript, Node.js, JavaScript, portfolio, développeur français",
-  image = "https://vaporisateur.github.io/Portfolio/snippet.png",
-  url = "https://vaporisateur.github.io/Portfolio",
+  image = "https://fabienastorg.com/snippet.png",
+  url = "https://fabienastorg.com",
   type = "website"
 }: SEOProps) => {
   useEffect(() => {
@@ -59,8 +59,8 @@ export const useSEO = (seoProps: SEOProps) => {
     title = "Fabien Astorg - Développeur Frontend | Portfolio",
     description = "Développeur Frontend spécialisé en React, TypeScript et Node.js. Découvrez mes projets et compétences en développement web moderne.",
     keywords = "développeur web, frontend, React, TypeScript, Node.js, JavaScript, portfolio, développeur français",
-    image = "https://vaporisateur.github.io/Portfolio/snippet.png",
-    url = "https://vaporisateur.github.io/Portfolio",
+    image = "https://fabienastorg.com/snippet.png",
+    url = "https://fabienastorg.com",
     type = "website"
   } = seoProps;
 

@@ -1,8 +1,14 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://vaporisateur.github.io/Portfolio/sitemap.xml
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://fabienastorg.com/sitemap.xml
+
+# Additional sitemaps (for testing)
+Sitemap: https://fabienastorg.com/sitemaps.xml
 
 # Disallow specific paths (if any)
 # Disallow: /admin/

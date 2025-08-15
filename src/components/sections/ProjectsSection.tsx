@@ -14,7 +14,7 @@ const portfolioProjects = [
       { title: "Élaboration des spécifications techniques." },
       { title: "Gestion Agile via tableau Kanban." },
     ],
-    link: "https://vaporisateur.github.io/Portfolio/Menu_Maker.pdf",
+    link: "https://fabienastorg.com/Menu_Maker.pdf",
     image: projet11Image,
     linkText: "Voir le projet",
   },

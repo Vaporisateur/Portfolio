@@ -11,7 +11,7 @@ Un portfolio professionnel présentant :
 - **Cartes de projets** avec positionnement sticky
 - **Interface responsive** pour tous les appareils
 
-🔗 **Demo Live** : [https://vaporisateur.github.io/Portfolio/](https://vaporisateur.github.io/Portfolio/)
+🔗 **Demo Live** : [https://fabienastorg.com](https://fabienastorg.com)
 
 ## 🛠️ Technologies Utilisées
 
@@ -71,7 +71,7 @@ npm install
 npm run dev
 ```
 
-Le site sera accessible sur `http://localhost:5173/Portfolio/`
+Le site sera accessible sur `http://localhost:5173/`
 
 ## 📋 Scripts Disponibles
 
@@ -119,7 +119,7 @@ Le site est automatiquement déployé sur GitHub Pages via GitHub Actions :
 3. **Publication** sur GitHub Pages
 
 ### Configuration GitHub Pages
-- Base path configurée : `/Portfolio/`
+- Domaine personnalisé configuré : `fabienastorg.com`
 - Assets correctement gérés pour la production
 - Images optimisées et servies depuis `src/assets/`
 
