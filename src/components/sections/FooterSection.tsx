@@ -7,7 +7,7 @@ const footerLinks = [
   },
   {
     title: "LinkedIn",
-    href: "https://www.linkedin.com/in/fabien-astorg-157248300/",
+    href: "https://www.linkedin.com/in/fabien-astorg/",
   },
 ];
 
